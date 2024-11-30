@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
   - name: main-ctr
-    image: nigelpoulton/nginxadapter:1.0
+    image: test-k8s:1.0
     ports:
     - containerPort: 80
   - name: helper-ctr
